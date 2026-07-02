@@ -18,6 +18,8 @@ with sync_playwright() as p:
     page.goto(URL, wait_until="networkidle")
 
     text = page.locator("body").inner_text()
+    print(text)
+print("Finished")
 
     if "There are currently no live dates for this exam" not in text:
         send(f"🚨 MOrth Part B قد يكون فتح!\n{URL}")
