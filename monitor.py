@@ -3,7 +3,7 @@ import requests
 
 URL = "https://services.rcsed.ac.uk/exams/exam-details-membership-in-orthodontics-part-b"
 
-BOT_TOKEN = "ضع التوكن هنا"
+BOT_TOKEN = "8841127547:AAH3h1DLJIVrz7Vphi050tdPF4auYOcVhLM"
 CHAT_ID = "676405292"
 
 def send(msg):
